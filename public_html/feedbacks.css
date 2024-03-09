@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(212, 211, 211);
+    background-image: url("Images/riihsiq_by_3rdillusion_d9y0azo.jpg");
+    background-size: cover;
+}
+
+.feedback-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px; /* Set your desired maximum width */
+    margin: auto; /* Center the container horizontally */
+    height: 80vh; /* Set a fixed height, adjust as needed */
+    margin-top: 10vh; /* Center the container vertically */
+    border-radius: 20px;
+}
+
+.feedback-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%; /* Make each feedback item take the full width of the container */
+}
+
+.feedback-container:hover,
+.feedback-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.container{
+        overflow: auto; /* Add this line to enable the scroll wheel */
+}

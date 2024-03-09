@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(212, 211, 211);
+    background-image: url("Images/riihsiq_by_3rdillusion_d9y0azo.jpg");
+    background-size: cover;
+}
+.ui-selectmenu-button.ui-button {
+    background-color: #fff;
+    width: 100%;
+
+
+}
+.ui-selectmenu-button.ui-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+h2 {
+    font-family: "Strait";
+    font-size: 280%;
+    font-weight: bold;
+}
+.ui-widget {
+    font-family: courier;
+}
+.form-control {
+    font-family: courier;
+    font-size: 1em;
+    flex: 1;
+}
+#display {
+    display: block;
+    text-align: center;
+    font-size: 180%;
+    font-family: 'Chonburi', cursive;
+    font-weight: normal;
+}
+label {
+    font-family: 'Chonburi';
+}
+form {
+    max-width: 400px; /* Adjust the max-width as needed */
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.registrationform {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px; /* Adjust the max-width as needed */
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px;
+}
+
+
+#error-popup, #success-popup {
+    margin-top: 60px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    transition: opacity 1.5s ease-in-out;
+}
+
+#login-error-popup, #login-success-popup {
+    margin-top: 310px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.button{
+    align-items: center;
+    
+}
+.Signup{
+    padding-bottom: 10px;
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover{
+    background-color: #020b31;
+}
